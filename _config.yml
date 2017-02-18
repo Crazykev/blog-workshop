@@ -71,3 +71,10 @@ deploy:
   type: git
   repo: https://github.com/Crazykev/crazykev.github.io
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
